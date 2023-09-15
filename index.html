@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>windbnb</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="assets/js/menu.js" defer></script>
+</head>
+<body>
+    
+    <div class="menu__mobile">
+        <header class="mobile__header">
+            <h4 class="mobile__title">Edit your search</h4>
+            <span class="material-symbols-outlined mobile__xmark">close</span>
+        </header>
+        
+        <div class="mobile__inputs">
+            <input class="mobile__location" value="Helsinki, Finland" placeholder="Add place"></input>
+            <input class="mobile__guests" placeholder="Add guests"></input>
+        </div>
+
+        <section class="mobile__places">
+            <ul class="places__list">
+                <li class="places__item">Helsinki, Finland</li>
+                <li class="places__item">Turku, Finland</li>
+                <li class="places__item">Oulu, Finland</li>
+                <li class="places__item">Vaasa, Finland</li>
+            </ul>
+        </section>
+
+        <button class="mobile__search">
+            <span class="material-symbols-outlined mobile__search-icon">search</span> Search
+        </button>
+    </div>
+
+    <div class="layout">
+
+        <navbar class="layout__navbar">
+            <img src="./assets/img/logo.png" alt="Logo de Windbnb" class="navbar__image">
+
+            <div class="navbar__search">
+                <input type="text" class="navbar__input" value="Helsinki, Finland" placeholder="Add place">
+                <input type="text" class="navbar__input-guest" placeholder="Add guests">
+                <button class="navbar__input-btn"> <span class="material-symbols-outlined input-btn__icon">search</span></button>
+            </div>
+        </navbar>  
+
+        <header class="layout__header">
+            <h2 class="header__title">Stays in Finland</h2>
+            <span class="header__description">12+ stays</span>
+        </header>
+
+        <section class="layout__content">
+
+            <article class="layout__article">
+
+                <img src="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=2255&q=80" class="article__img">
+                <div class="article__characteristics">  
+
+                    <span class="article__superhost"> SUPER HOST </span>
+                    <span class="article__type"> Entire apartment . 2 beds</span>
+                    <span class="material-symbols-outlined article__icon"> star </span> 
+                    <span class="article__rating"> 4.40</span>
+
+                </div>
+                <h3 class="article__title"> Stylish aparment in center of the sky </h3>
+
+            </article>
+
+            <article class="layout__article">
+
+                <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" class="article__img">
+                <div class="article__characteristics">  
+
+                    <span class="article__superhost article__superhost--hidden"> SUPER HOST </span>
+                    <span class="article__type"> Private room </span>
+                    <span class="material-symbols-outlined article__icon"> star </span>
+                    <span class="article__rating"> 4.25</span>
+
+                </div>
+
+                <h3 class="article__title"> Cosy, peaceful and private room with... </h3>
+
+            </article>
+
+            <article class="layout__article">
+
+                <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" class="article__img">
+                <div class="article__characteristics">  
+
+                    <span class="article__superhost"> SUPER HOST </span>
+                    <span class="article__type"> Entire apartment . 2 beds</span>
+                    <span class="material-symbols-outlined article__icon"> star </span>
+                    <span class="article__rating">  4.40</span>
+
+                </div>
+                <h3 class="article__title"> Mordern House in a remote area </h3>
+
+            </article>
+
+            <article class="layout__article">
+
+                <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2249&q=80" class="article__img">
+                <div class="article__characteristics">  
+
+                    <span class="article__superhost"> SUPER HOST </span>
+                    <span class="article__type"> Entire apartment . 2 beds</span>
+                    <span class="material-symbols-outlined article__icon"> star </span>
+                    <span class="article__rating">  4.40</span>
+
+                </div>
+                <h3 class="article__title"> Stylist room in design district  </h3>
+
+            </article>
+
+            <article class="layout__article">
+
+                <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" class="article__img">
+                <div class="article__characteristics">  
+
+                    <span class="article__superhost"> SUPER HOST </span>
+                    <span class="article__type"> Entire apartment . 2 beds</span>
+                    <span class="material-symbols-outlined article__icon"> star </span> 
+                    <span class="article__rating"> 4.40</span>
+
+                </div>
+                <h3 class="article__title"> Modern apartment close to nature </h3>
+
+            </article>
+
+            <article class="layout__article">
+
+                <img src="https://images.unsplash.com/photo-1505693314120-0d443867891c?ixlib=rb-1.2.1&auto=format&fit=crop&w=2591&q=80" class="article__img">
+                <div class="article__characteristics">  
+
+                    <span class="article__superhost"> SUPER HOST </span>
+                    <span class="article__type"> Entire apartment . 2 beds</span>
+                    <span class="material-symbols-outlined article__icon"> star </span>
+                    <span class="article__rating">  4.40</span>
+
+                </div>
+                <h3 class="article__title"> House in a remote area </h3>
+
+            </article>
+
+        </section>
+
+        <footer class="content__footer">
+            <span class="footer__createdby">created by <a class="footer__creator" href="https://github.com/SbraveheartS1">José Martínez</a> - devChallenges.io</span>
+        </footer>
+    </div>
+
+</body>
+</html>
