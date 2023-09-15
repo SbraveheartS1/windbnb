@@ -48,11 +48,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- Pure HTML, CSS and Js
 
 ## Features
 
@@ -64,18 +60,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- Example: -->
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
+To clone and run this application, you'll need [Git](https://git-scm.com) and use Open Live Server Extension from Visual Studio Code
 
 ## Acknowledgements
 
